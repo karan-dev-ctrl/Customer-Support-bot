@@ -1,0 +1,6 @@
+dbt_chatbot:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: ../warehouse/chatbot.duckdb

@@ -1,0 +1,7 @@
+.venv/
+warehouse/*.duckdb
+__pycache__/
+data/
+dbt_chatbot/target/
+dbt_chatbot/logs/
+dbt_chatbot/dbt_packages/

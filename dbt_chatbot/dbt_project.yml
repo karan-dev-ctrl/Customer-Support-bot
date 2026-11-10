@@ -1,0 +1,10 @@
+name: dbt_chatbot
+version: "1.0.0"
+profile: dbt_chatbot
+model-paths: ["models"]
+models:
+  dbt_chatbot:
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table
